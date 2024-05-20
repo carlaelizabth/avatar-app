@@ -3,7 +3,6 @@ package com.exo.avatar
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.exo.avatar.connection.CharacterDto
 import com.exo.avatar.databinding.ItemCharacterBinding
 import com.squareup.picasso.Picasso
@@ -20,10 +19,6 @@ class CharacterAdapter(private val characters: List<CharacterDto>, private val o
         val character = characters[position]
 
         holder.bind(character)
-
-    /*    Glide.with(holder.itemView.context)
-            .load(character.photoURL)
-            .into(holder.ivCharacter)*/
 
         Picasso.get()
             .load(character.photoUrl)

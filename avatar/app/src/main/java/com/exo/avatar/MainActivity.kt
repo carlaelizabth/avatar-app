@@ -9,7 +9,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.exo.avatar.connection.CharacterDto
 import com.exo.avatar.connection.CharactersApi
 import com.exo.avatar.databinding.ActivityMainBinding
@@ -47,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d(Constants.LOGTAG, getString(R.string.tMessLog,response.toString()))
                 response.body()?.let { characters ->
                     val characterAdapter = CharacterAdapter(characters) {character ->
-                        character.id?.let { id ->
+                        character.id.let { id ->
                             val bundle = bundleOf(
                                 "id" to id
                             )

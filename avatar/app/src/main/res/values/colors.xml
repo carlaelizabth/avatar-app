@@ -7,7 +7,7 @@
     <color name="water_background">#B3E5FC</color>
     <color name="water_text_primary">#01579B</color>
     <color name="water_text_secondary">#0288D1</color>
-    <color name="water_details">#81D4FA</color>
+    <color name="water_details">#8081D4FA</color>
 
     <!-- Earth -->
     <color name="earth_background">#C8E6C9</color>
