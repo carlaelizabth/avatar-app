@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">avatar</string>
+    <string name="avatar_image" />
+    <string name="avatar_name">Nombre del personaje</string>
+    <string name="affilation">Afilación</string>
+    <string name="txPCharacter">Imagen del personaje</string>
+    <string name="tivWeapon">Elemento que domina</string>
+    <string name="tAir">Air</string>
+    <string name="tEarth">Earth</string>
+    <string name="tFire">Fire</string>
+    <string name="tTheElements">The elements</string>
+    <string name="tWater">Water</string>
+    <string name="tMessLog">Respuesta recibida: %s</string>
+    <string name="vDef"> </string>
+    <string name="tIdRecibido">ID recibido %s</string>
+    <string name="tGender">Gender</string>
+    <string name="tProfession">Profession</string>
+    <string name="tPosition">Position</string>
+    <string name="tName">Name</string>
+    <string name="tFConnection">Error de conexión</string>
+    <string name="tQFail">No se pudo conectar al servidor. ¿Desea reintentar?</string>
+    <string name="tReintentar">Reintentar</string>
+    <string name="tCancel">Cancelar</string>
+</resources>

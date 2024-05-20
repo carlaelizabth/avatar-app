@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Agua  -->
+    <color name="water_background">#B3E5FC</color>
+    <color name="water_text_primary">#01579B</color>
+    <color name="water_text_secondary">#0288D1</color>
+    <color name="water_details">#81D4FA</color>
+
+    <!-- Earth -->
+    <color name="earth_background">#C8E6C9</color>
+    <color name="earth_text_primary">#2E7D32</color>
+    <color name="earth_text_secondary">#388E3C</color>
+    <color name="earth_details">#A5D6A7</color>
+
+    <!-- Fire -->
+    <color name="fire_background">#FFCCBC</color>
+    <color name="fire_text_primary">#D84315</color>
+    <color name="fire_text_secondary">#E64A19</color>
+    <color name="fire_details">#FFAB91</color>
+
+    <!-- Air and without affi-->
+    <color name="air_background">#E1F5FE</color>
+    <color name="air_text_primary">#455A64</color>
+    <color name="air_text_secondary">#607D8B</color>
+    <color name="air_details">#CFD8DC</color>
+
+
+</resources>
